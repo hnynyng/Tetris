@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.canvas {
+    border: 2px solid #fff;
+    background-color: #222;
+}
+
+.tetromino {
+    background-color: #f00;
+    transition: background-color 0.2s ease;
+}
+
+.tetromino:hover {
+    background-color: #ff0;
+}
+
+.line-clear {
+    animation: lineClear 0.5s forwards;
+}
+
+@keyframes lineClear {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
