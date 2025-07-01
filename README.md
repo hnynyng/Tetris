@@ -14,7 +14,7 @@ Welcome to the Tetris Game project! This is a classic Tetris implementation buil
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/tetris-game.git
+   git clone https://github.com/hnynyng/tetris-game.git
    ```
 2. Navigate to the project directory:
    ```
